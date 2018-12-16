@@ -3,8 +3,10 @@ import './index.css';
 
 export default function Navigation() {
     return(
-        <nav>
-            nav
+        <nav className="navigation-container">
+            <div className="container">
+                nav
+            </div>
         </nav>
     );
 }
