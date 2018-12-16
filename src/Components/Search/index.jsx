@@ -5,9 +5,9 @@ export default function Navigation() {
     return(
         <section className="section-container">
             <div className="container">
-                <h1>
-                    Check out _____, it's raining!
-                </h1>
+                <p className="description">Check out</p>
+                <span className="search" contentEditable="true">___</span>
+                <p className="description">it is raining</p>
             </div>
         </section>
     );
