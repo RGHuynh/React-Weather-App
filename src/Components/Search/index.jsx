@@ -3,10 +3,12 @@ import './index.css';
 
 export default function Navigation() {
     return(
-        <nav className="navigation-container">
+        <section className="section-container">
             <div className="container">
-                nav
+                <h1>
+                    Check out _____, it's raining!
+                </h1>
             </div>
-        </nav>
+        </section>
     );
 }
