@@ -1,0 +1,23 @@
+.metric-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.metric-acronym {
+    padding-left: .3rem;
+    font-size: .5rem;
+}
+
+.metric-acronym, .metric {
+    margin: 0;
+}
+
+.weatherMetric-wrapper {
+    display: flex;
+}
+
+.weatherMetric-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

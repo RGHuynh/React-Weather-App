@@ -1,0 +1,25 @@
+.temp-wrapper {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 2rem
+}
+
+.weatherMetric-wrapper {
+    margin: auto;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.temp-degree {
+    margin: 0;
+    padding-top: 2rem;
+    margin-left: 3rem;
+    font-size: 4rem;
+}
+
+.temp-image {
+    margin-right: 3rem;
+}
