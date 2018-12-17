@@ -1,5 +1,7 @@
 import React from 'react';
-import Search from '../Search'
+import Search from '../Search';
+import WeatherMetric from './WeatherMetric';
+import Cloud from '../../images/cloud.svg';
 import './index.css';
 
 export default function() {
@@ -7,17 +9,25 @@ export default function() {
         <header>
             <Search />
             <div className="temp-wrapper">
-                <div>cloud</div>
-                <h1>temp</h1>
+                <img className="temp-image" src={Cloud} />
+                <h1 className="temp-degree">15</h1>
             </div>
-            <div>
-                <div>
-                    <h6>Wind</h6>
-                    <div>
-                        <h6>15</h6>
-                        <h6>MPH</h6>
-                    </div>
-                </div>
+            <div className="weatherMetric-wrapper">
+                <WeatherMetric 
+                    title="Wind"
+                    metric="15"
+                    acronym="MPH"
+                />
+                <WeatherMetric 
+                    title="Rain"
+                    metric="15"
+                    acronym="%"
+                />
+                <WeatherMetric 
+                    title="Humidity"
+                    metric="15"
+                    acronym="%"
+                />
             </div>
 
             <div>

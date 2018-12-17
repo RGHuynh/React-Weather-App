@@ -4,6 +4,8 @@ import './index.css';
 
 export default function Landing() {
     return(
-        <Header />
+        <div className="landing-container">
+            <Header />
+        </div>
     );
 }
