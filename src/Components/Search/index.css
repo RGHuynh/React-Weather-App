@@ -1,4 +1,3 @@
-
 .description, .search {
     margin: 0;
 }
@@ -10,15 +9,22 @@
     display: inline;
 }
 
-.description-textbox {
-    width: 10%;
-    display: inline;
-}
-
 .description-form {
     display: inline;   
 }
 
 .description-form > input:focus {
     outline: none !important;
+}
+
+.description-form > input:-moz-read-write{
+    font-weight: bold;
+}
+
+.description-form > input:read-write{
+    font-weight: bold;
+}
+
+.description-wrapper {
+    text-align: center;
 }

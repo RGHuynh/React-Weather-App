@@ -15,8 +15,9 @@
 
 .temp-degree {
     margin: 0;
-    padding-top: 3rem;
+    padding-top: 2rem;
     margin-left: 3rem;
+    font-size: 4rem;
 }
 
 .temp-image {

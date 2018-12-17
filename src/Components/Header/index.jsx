@@ -30,13 +30,13 @@ export default function() {
                 />
             </div>
 
-            <div>
+            {/* <div>
                 <div>
                     <div>img</div>
                     <h6>40</h6>
                     <h6>Tomorrow</h6>
                 </div>
-            </div>
+            </div> */}
         </header>
     )
 }

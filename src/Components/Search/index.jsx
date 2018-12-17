@@ -19,19 +19,16 @@ export default class Navigation extends Component {
     render(){
         return(
             <section className="section-container">
-                <div className="container">
-                    <h1 className="description">Check out </h1>
-                    {/* <form className="description-form">
-                        <input className="description-textbox" type="text" placeholder="____" value={this.state.input} onChange={this.handleChange}></input>
-                    </form> */}
+                <div className="container description-wrapper">
+                    <h1 className="description">Check out</h1>
                     <AutosizeInput 
                         className="description-form"
                         name="form-field-location"
                         value={this.state.input}
                         onChange={this.handleChange}
-                        placeholder="_________"
+                        placeholder="_______"
                     />
-                    <h1 className="description">it's raining</h1>
+                    <h1 className="description">, it's raining</h1>
                 </div>
             </section>
         );

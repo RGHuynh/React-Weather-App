@@ -1,6 +1,7 @@
 .metric-wrapper {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .metric-acronym {
