@@ -13,6 +13,10 @@
     display: inline;   
 }
 
+.description-form > input {
+    border: 1px solid transparent;
+}
+
 .description-form > input:focus {
     outline: none !important;
 }
