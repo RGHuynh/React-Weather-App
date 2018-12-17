@@ -16,5 +16,9 @@
 }
 
 .description-form {
-    display: inline;
+    display: inline;   
+}
+
+.description-form > input:focus {
+    outline: none !important;
 }
