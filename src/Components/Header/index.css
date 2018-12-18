@@ -3,14 +3,7 @@
     width: 50%;
     margin: auto;
     justify-content: space-around;
-    margin-top: 2rem
-}
-
-.weatherMetric-wrapper {
-    margin: auto;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 .temp-degree {
