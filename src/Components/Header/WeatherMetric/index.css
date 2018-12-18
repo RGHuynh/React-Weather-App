@@ -15,9 +15,18 @@
 
 .weatherMetric-wrapper {
     display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 .weatherMetric-container {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.weatherMetric-title {
+    height: 1rem;
+    margin: auto;
+    display: block;
 }

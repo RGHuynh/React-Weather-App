@@ -20,7 +20,7 @@ export default class Navigation extends Component {
         return(
             <section className="section-container">
                 <div className="container description-wrapper">
-                    <h1 className="description">Check out </h1>
+                    <h1 className="description">Weather in </h1>
                     <AutosizeInput 
                         className="description-form"
                         name="form-field-location"
@@ -28,7 +28,7 @@ export default class Navigation extends Component {
                         onChange={this.handleChange}
                         placeholder="_______"
                     />
-                    <h1 className="description">, it's raining</h1>
+                    <h1 className="description">. Sucks</h1>
                 </div>
             </section>
         );

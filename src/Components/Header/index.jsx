@@ -2,6 +2,9 @@ import React from 'react';
 import Search from '../Search';
 import WeatherMetric from './WeatherMetric';
 import Cloud from '../../images/cloud.svg';
+import Drop from '../../images/drop.svg';
+import Rain from '../../images/rain.svg';
+import Wind from '../../images/wind.svg';
 import './index.css';
 
 export default function() {
@@ -14,16 +17,19 @@ export default function() {
             </div>
             <div className="weatherMetric-wrapper">
                 <WeatherMetric 
+                    image={Wind}
                     title="Wind"
                     metric="15"
                     acronym="MPH"
                 />
                 <WeatherMetric 
+                    image={Rain}
                     title="Rain"
                     metric="15"
                     acronym="%"
                 />
                 <WeatherMetric 
+                    image={Drop}
                     title="Humidity"
                     metric="15"
                     acronym="%"
